@@ -1,4 +1,7 @@
-// alert("Hello World");
+const age = prompt("Enter your age: ");
 
-const num = prompt("Enter a number");
-console.log(num);
+if (age > 18) {
+  alert("Legal to vote");
+} else {
+  alert("not allowed");
+}
