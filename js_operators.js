@@ -113,18 +113,22 @@ myPermissions = myPermissions | read;
 
 // console.log(5 ^ 3); //XOR
 
-console.log(~5); //NOT -(A + 1)
+// console.log(~5); //NOT -(A + 1)
 
-console.log(5 << 3);
+// console.log(5 << 3);
 
+console.log("Line no. 120");
 console.log(5 >> 3);
 
 let firstS = "Hi";
 let secondS = " Hello";
-console.log(firstS + " I am Bijay" + secondS);
+// console.log(firstS + " I am Bijay" + secondS);
 const x = "3";
 const xInNumber = +x;
-console.log("xInNumber ", xInNumber, typeof xInNumber);
+// console.log("xInNumber ", xInNumber, typeof xInNumber);
 
 let i = "2";
-i === "2" ? console.log("It is true") : console.log("False");
+// i === "2" ? console.log("It is true") : console.log("False");
+
+if (a && b && C != d && e && f) {
+}

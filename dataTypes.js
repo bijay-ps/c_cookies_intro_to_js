@@ -29,11 +29,12 @@ const person = {
   hobbies: ["reading", "playing PS 4"],
 };
 
-console.log(person);
+// console.log(person);
 
 function sum(num1, num2) {
   const result = num1 + num2;
-  console.log(result);
+  return result;
 }
 
-sum(2, 5);
+const sumResult = sum(2, 5);
+console.log(sumResult);
