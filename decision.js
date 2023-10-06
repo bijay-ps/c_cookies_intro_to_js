@@ -93,3 +93,9 @@ switch (urlEndpoint) {
   default:
     console.log("Redirect to not found page");
 }
+
+let var_i = 10;
+let expression = true;
+
+if (expression) var_i++;
+else var_i--;

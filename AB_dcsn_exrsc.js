@@ -39,4 +39,5 @@ let temperature = 25;
 // console.log(`The result of ${num1} ${operator} ${num2} is ${result}`);
 
 let num1 = prompt("Enter the first number:");
+
 console.log(num1);
