@@ -1,7 +1,7 @@
 // Goal is to print 1 to 100;
 
 for (let i = 1; i <= 100; i++) {
-  //   console.log(i);
+    console.log(i);
 }
 
 // Goal is to print 100 to 1;
@@ -41,7 +41,7 @@ for (let name of arr2) {
 
 // console.log("=============================");
 
-for (let i = 0; i < arr2.length; i++) {
+for (let i = 0; i <= arr2.length-1; i++) {
   //   console.log(arr2[i]);
 }
 
@@ -71,9 +71,7 @@ const books = [
 ];
 
 // for
-books.forEach(function (element, i) {
-  //   console.log(i, element.bookName);
-});
+books.forEach(function (element, i) {   //   console.log(i, element.bookName); });
 
 // continue and break
 
@@ -100,4 +98,4 @@ console.log("##########################");
 do {
   console.log(i);
   i++;
-} while (i <= 20);
+} while (i <= 20)
